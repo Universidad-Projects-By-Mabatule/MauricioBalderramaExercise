@@ -50,13 +50,12 @@ int numberPersistente(int num)
 	return count;
 }
 
-/*
+
 Console.WriteLine("Ingrese una oracion");
 string oracion = Console.ReadLine();
 List<string> list = oracion.Split(" ").ToList();
 var newlist=Invert(list);
 printList(newlist);
-*/
 Console.WriteLine("Ingrese su numero");
 var num = Int32.Parse(Console.ReadLine());
 Console.WriteLine("Su numero persistente es: ");
